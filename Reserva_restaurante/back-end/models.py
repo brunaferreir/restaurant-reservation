@@ -10,3 +10,4 @@ class Reserva(db.Model):
     hora = db.Column(db.Time, nullable=False)
     numero_pessoas = db.Column(db.Integer, nullable=False)
     status = db.Column(db.String(20), default="confirmada")
+

@@ -13,7 +13,7 @@ document.getElementById("form_Reserva").addEventListener("submit", async functio
         const response = await fetch("http://127.0.0.1:5000/reservas", {
             method: "POST",
             headers: {
-                "Content-Type": "apllication/json"
+                "Content-Type": "application/json"
             },
             body: JSON.stringify(reserva)
 
